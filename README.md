@@ -1,9 +1,9 @@
 # Football Transfer Value Prediction
 
 ## Overview
-This project predicts the expected **post-season transfer value** of football players based on pre-season attributes using the trained machine learning model. The prediction model uses pickle for serialization and requires specific input parameters to generate accurate market value forecasts.
+This project predicts the expected **post-season market value** of football players based on pre-season market value and season score with a predictive machine learning model. The prediction model requires specific input parameters to generate accurate market value forecasts.
 
-The `train` is a single file and it contains multiple files so the `train` is a folder.
+Multiple `train` files exist for different models, so the `train` is a folder instead of a single file.
 
 ## Features
 - Loads a pre-trained machine learning model from a pickle file
@@ -14,7 +14,6 @@ The `train` is a single file and it contains multiple files so the `train` is a 
 ## Model File
 The system requires a trained model file:
 - File name: `trained_valuation_model.pkl`
-- Location: Google drive
 
 ## Input Parameters
 When running the model, users must provide the following 4 inputs:
